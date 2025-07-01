@@ -9,7 +9,7 @@ from firebase_admin import credentials, db
 # ------------------------------
 cred = credentials.Certificate("firebase_key.json")  # <-- JSON key path
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://your-project-id.firebaseio.com/'  # <-- replace this
+    'databaseURL': 'https://grafana-27a10-default-rtdb.firebaseio.com/'  # <-- replace this
 })
 
 # ------------------------------
